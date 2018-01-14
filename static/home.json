@@ -1,0 +1,81 @@
+{
+	"ret": true,
+	"data": {
+		"swiperInfo": [{
+			"id": 0,
+			"imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1515694597125&di=5e54b732a33d0caeb24d622a0f342768&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01de1457d7d1200000018c1bd5ef2b.jpg%402o.jpg",
+			"link": "/list"
+		},{
+			"id": 1,
+			"imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1516289444&di=ab1d66d5c08a08065fed677a39076e9d&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01c5d2575fbb600000012e7ef80095.jpg%40900w_1l_2o_100sh.jpg",
+			"link": "/list"
+		},{
+			"id": 2,
+			"imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1516289400&di=16d17eb4f4a093a17ceaf1eb7b79fc7d&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01cd0258d93766a801219c77b2642c.jpg",
+			"link": "/list"
+		},{
+			"id": 3,
+			"imgUrl": "http://img1.qunarzz.com/piao/fusion/1609/f3/52a119dbed871902.jpg_640x200_b4573df8.jpg",
+			"link": "/list"
+		}],		
+		"localgroomInfo": [{
+			"id": 0,
+			"img": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+			"place": "故宫",
+			"grade": "4.6分",
+			"rate": "5A",
+			"introduce": "东方宫殿建筑代表作品，世界宫殿建筑典范之本",
+			"price": 40
+		},{
+			"id": 1,
+			"img": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+			"place": "八达岭长城",
+			"grade": "4.6分",
+			"rate": "5A",
+			"introduce": "东方宫殿建筑代表作品，世界宫殿建筑典范之本",
+			"price": 40
+		}],
+		"postypeInfo": [{
+			"id": 0,
+			"img": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+			"place": "颐和园",
+			"grade": "4.6分",
+			"rate": "5A",
+			"introduce": "东方宫殿建筑代表作品，世界宫殿建筑典范之本",
+			"price": 40
+		},{
+			"id": 1,
+			"img": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+			"place": "故宫",
+			"grade": "4.6分",
+			"rate": "5A",
+			"introduce": "东方宫殿建筑代表作品，世界宫殿建筑典范之本",
+			"price": 40			
+		},{
+			"id": 2,
+			"img": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+			"place": "八达岭长城",
+			"grade": "4.6分",
+			"rate": "5A",
+			"introduce": "东方宫殿建筑代表作品，世界宫殿建筑典范之本",
+			"price": 40
+		},{
+			"id": 3,
+			"img": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+			"place": "香山公园",
+			"grade": "4.6分",
+			"rate": "5A",
+			"introduce": "东方宫殿建筑代表作品，世界宫殿建筑典范之本",
+			"price": 40
+		},{
+			"id": 4,
+			"img": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+			"place": "天下第一关雄关",
+			"grade": "4.6分",
+			"rate": "5A",
+			"introduce": "东方宫殿建筑代表作品，世界宫殿建筑典范之本",
+			"price": 40			
+			
+		}]
+	}
+}
