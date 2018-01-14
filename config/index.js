@@ -1,5 +1,9 @@
 'use strict'
+<<<<<<< HEAD
 // Template version: 1.2.8
+=======
+// Template version: 1.2.7
+>>>>>>> tian
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require('path')
@@ -10,10 +14,28 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
+<<<<<<< HEAD
     proxyTable: {},
 
     // Various Dev Server settings
     host: '192.168.191.1', // can be overwritten by process.env.HOST
+=======
+    proxyTable: {
+      '/mz':{
+        target:'https://m.maizuo.com',
+        pathRewrite: {'^/mz' : ''},
+        changeOrigin:true
+      },
+      '/tq':{
+        target:'http://api.map.baidu.com',
+        pathRewrite: {'^/tq' : ''},
+        changeOrigin:true
+      }
+    },
+
+    // Various Dev Server settings
+    host: 'localhost', // can be overwritten by process.env.HOST
+>>>>>>> tian
     port: 9000, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,
@@ -26,14 +48,27 @@ module.exports = {
      */
 
     // https://webpack.js.org/configuration/devtool/#development
+<<<<<<< HEAD
     devtool: 'cheap-module-eval-source-map',
+=======
+    devtool: 'eval-source-map',
+>>>>>>> tian
 
     // If you have problems debugging vue-files in devtools,
     // set this to false - it *may* help
     // https://vue-loader.vuejs.org/en/options.html#cachebusting
     cacheBusting: true,
 
+<<<<<<< HEAD
     cssSourceMap: true,
+=======
+    // CSS Sourcemaps off by default because relative paths are "buggy"
+    // with this option, according to the CSS-Loader README
+    // (https://github.com/webpack/css-loader#sourcemaps)
+    // In our experience, they generally work as expected,
+    // just be aware of this issue when enabling this option.
+    cssSourceMap: false,
+>>>>>>> tian
   },
 
   build: {

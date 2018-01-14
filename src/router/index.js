@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+<<<<<<< HEAD
 
 import Home from '@/pages/home/Home'
 import CityChange from '@/pages/cityChange/CityChange'
@@ -12,10 +13,20 @@ import List from '@/pages/list/List'
 import Travels from '@/pages/travels/Travels'
 
 import HotSearch from '@/pages/list/HotSearch'
+=======
+import AppMine  from "@/components/mine/AppMine"
+import AppSet  from "@/components/mine/AppSet"
+import AppMessage from "@/components/mine/AppMessage"
+import AppLogin from "@/components/login/AppLogin"
+import AppRegister from "@/components/register/AppRegister"
+import AppReset from "@/components/resetpassward/AppReset"
+import AppDestination from "@/components/destination/AppDestination"
+>>>>>>> tian
 Vue.use(Router)
 
 export default new Router({
   routes: [
+<<<<<<< HEAD
     {
       path: '/',
       name: 'home',
@@ -66,5 +77,15 @@ export default new Router({
     	name: 'travels',
     	component:Travels
     }  
+=======
+    {path: '/',redirect:"mine"},
+    {path: '/mine',name: 'mine',component: AppMine},
+    {path: '/set',name: 'set',component: AppSet},
+    {path: '/message',name: 'message',component: AppMessage},
+    {path: '/login',name: 'login',component: AppLogin},
+    {path: '/register',name: 'register',component: AppRegister},
+    {path: '/reset',name: 'reset',component: AppReset},
+    {path: '/destination',name: 'destination',component: AppDestination}    
+>>>>>>> tian
   ]
 })

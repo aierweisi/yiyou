@@ -39,7 +39,11 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
+<<<<<<< HEAD
         include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
+=======
+        include: [resolve('src'), resolve('test')]
+>>>>>>> tian
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
@@ -64,9 +68,12 @@ module.exports = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
+<<<<<<< HEAD
       },{
       	test:/\.scss$/,
       	loader:'style-loader!css-loader!sass-loader'
+=======
+>>>>>>> tian
       }
     ]
   },

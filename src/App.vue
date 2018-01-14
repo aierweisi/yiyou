@@ -5,6 +5,7 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 
 export default {
   name: 'app',  
@@ -17,4 +18,13 @@ export default {
   @import './app/iconfont/iconfont.css';
   @import "../node_modules/swiper/dist/css/swiper.css";
   @import '../node_modules/swiper/dist/css/swiper.css';
+=======
+export default {
+  name: 'app'
+}
+</script>
+
+<style>
+#app{height:100%;}
+>>>>>>> tian
 </style>
